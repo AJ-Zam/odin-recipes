@@ -1,8 +1,21 @@
-div {
-    color: coral;
-    background-color: beige
+#PAGE {
+    background-color: rgb(255, 240, 190);
 }
 
-p {
-    color: darkcyan;
+.title,
+.std-para {
+    font-family: 'Courier New', Courier, monospace;
+}
+.title {
+    color: rgba(212, 74, 108, 0.822);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.std-para {
+    font-weight: lighter;
+    margin-left: 1%;
+}
+.list {
+    list-style: circle;
+    list-style-position: inside;
 }
